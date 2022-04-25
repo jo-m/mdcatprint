@@ -1,4 +1,6 @@
-# Print Markdown file on Thermal Printer
+# Print Markdown files on Aliexpress Cat Printers
+
+More info on the printers: https://github.com/jo-m/gocatprint
 
 ```bash
 go build ./
