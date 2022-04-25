@@ -6,3 +6,5 @@ sudo ./mdcatprint example.md
 ```
 
 Requires the `wkhtmltoimage` binary in PATH.
+
+![Demo](demo.jpg)
