@@ -1,4 +1,4 @@
-.PHONY: lint check format bench
+.PHONY: lint check format
 
 lint:
 	gofmt -l .; test -z "$$(gofmt -l .)"
@@ -10,6 +10,3 @@ check: lint
 
 format:
 	gofmt -w -s .
-
-bench:
-	go test -v -bench=. ./...
