@@ -9,14 +9,14 @@ import (
 	_ "image/png"
 
 	"github.com/alexflint/go-arg"
-	"github.com/jo-m/gocatprint/pkg/printer"
-	"github.com/jo-m/gocatprint/pkg/simple"
 	extensions "github.com/moyen-blog/goldmark-extensions"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/extension"
 	"github.com/yuin/goldmark/parser"
+	"jo-m.ch/go/gocatprint/pkg/printer"
+	"jo-m.ch/go/gocatprint/pkg/simple"
 )
 
 type flags struct {
